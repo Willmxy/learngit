@@ -8,3 +8,6 @@ git push origin master
 git checkout branchname # switch to the branchname
 
 git checkout -b branchname # create a branch and switch to this branch 
+
+git merge devname #把指定分支devname合并到当前分支
+git checkout -d devname #删除指定分支devname
