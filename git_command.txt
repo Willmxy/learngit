@@ -1,0 +1,6 @@
+git checkout --filename #直接丢弃工作区的修改内容
+git remote add origin url #把本地库与远程库关联起来
+#关联后，第一次推送master分支内容时用命令
+git push -u origin master
+#此后，每次本地提交后，使用
+git push origin master
